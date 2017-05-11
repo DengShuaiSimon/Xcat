@@ -2,6 +2,6 @@
 #include<stdlib.h>
 int main()
 {
-   printf("Verify it");
+   printf("Verify Travis");
    return 0;
 }
