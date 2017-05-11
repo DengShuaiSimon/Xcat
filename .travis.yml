@@ -1,4 +1,4 @@
-install: make get-deps
+
 language:c
-script:make install
+script:make
 compiler:gcc
