@@ -1,0 +1,9 @@
+language: c
+
+jdk:
+  - libc
+  
+//language: java
+//
+//jdk:
+//  - oraclejdk8
