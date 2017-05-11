@@ -1,4 +1,4 @@
-
+os: -linux
 language:c
-script:make
-compiler:gcc
+script:gcc ./main.c
+compiler: -gcc
