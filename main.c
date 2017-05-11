@@ -1,7 +1,6 @@
 #include<stdio.h>
-#include<stdlib.h>
 int main()
 {
-   printf("Verify Travis");
+   printf("Verify Travis\n");
    return 0;
 }
