@@ -4,7 +4,6 @@ before_install:
 - gem install sinatra
 - gem install json
 - gem install activesupport
-- gem install pp
 - ruby ./travis.rb
 language: c
 script: gcc ./main.c
