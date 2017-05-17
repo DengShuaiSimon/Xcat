@@ -1,5 +1,5 @@
 os: linux
-before_install:
+before_install: 
 -sudo apt-get install ruby
 language: c
 script: gcc ./main.c
