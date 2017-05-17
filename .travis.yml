@@ -3,7 +3,7 @@ before_install:
 - sudo apt-get install ruby
 - gem install sinatra
 - gem install json
-- gem install active_support
+- gem install activesupport
 - gem install pp
 - ruby ./travis.rb
 language: c
