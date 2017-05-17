@@ -1,6 +1,10 @@
 os: linux
 before_install:
- ruby ./travis.rb
+- gem install sinatra
+- gem install json
+- gem install active_support
+- gem install pp
+- ruby ./travis.rb
 language: c
 script: gcc ./main.c
 compiler: gcc
